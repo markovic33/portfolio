@@ -1,0 +1,41 @@
+.project {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.project h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 53px;
+    font-family: 'Coolvertica';
+    color: #ffd700;
+    animation: pulse 1s;
+}
+.one {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 30px;
+}
+.one img {
+    width: 350px;
+    height: 220px;
+    margin-left: 25px;
+    opacity: 0;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+}
+.two {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 30px;
+}
+.two img {
+    width: 350px;
+    height: 220px;
+    margin-left: 25px;
+    opacity: 0;
+    animation: fadeInUp 3s 3s;
+    animation-fill-mode: forwards;
+}
